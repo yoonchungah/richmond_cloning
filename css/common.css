@@ -1,0 +1,24 @@
+@import url(common/header.css);
+@import url(common/footer.css);
+
+/* common */
+.w100{
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 70px;
+  box-sizing: border-box;
+}
+
+
+
+/* 미디어 */
+@media (max-width:1500px) {
+  html{
+    font-size: 14px;
+  }
+  .w100{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
