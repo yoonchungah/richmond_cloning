@@ -67,3 +67,9 @@ for(let i = 0; i <vr.length; i++){
     vr[i].style.backgroundImage = 'url(img/vr-icon.png)';
   })
 }
+
+let topBtn = document.querySelector('.top_btn');
+topBtn.addEventListener('click',(e)=>{
+  e.preventDefault();
+  window.scrollTo({top:0, behavior:"smooth"});
+})
